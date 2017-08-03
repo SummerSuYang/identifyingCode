@@ -61,7 +61,7 @@ class CreateIdentifyingCode
         {
             $fontSize = floor($this->width/$this->length+1);
             //echo $fontSize;
-            $font->file('./font.ttf');
+            $font->file('./fonts.ttf');
             $font->size($fontSize);
             $font->color($this->randColor());
             $font->align('center');
